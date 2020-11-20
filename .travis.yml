@@ -32,7 +32,7 @@ before_install:
 
 script:
   - cargo fmt -- --check
-  - cargo clippy --workspace --all-features --all-targets -- -D warnings
+  - cargo clippy --locked --workspace --all-features --all-targets -- -D warnings
   - cargo build --locked --workspace --all-features --verbose
   - cargo test --workspace --all-features --verbose
 
