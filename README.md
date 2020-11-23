@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/gnosis/rust-template.svg?branch=main)](https://travis-ci.com/gnosis/rust-template)
+
 # Rust Template Repo
 
 Scaffolding repo for new rust projects. It contains:
