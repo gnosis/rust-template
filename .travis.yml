@@ -11,6 +11,7 @@ env:
     - SCCACHE_VERSION=0.2.13
     - SCCACHE=$HOME/.sccache/bin/sccache
     - RUSTC_WRAPPER=$SCCACHE
+    - CARGO_INCREMENTAL=0
 
 cache:
   directories:
